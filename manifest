@@ -1,0 +1,8 @@
+#appname:SetLocationTest
+#publisher:dfischer
+#url:http://davidfischer.name
+#image:appicon.png
+#appid:name.davidfischer.setlocationtest
+#desc:Shows that setLocation zooms the map all the way out
+#type:mobile
+#guid:7fe000c4-9964-4b9d-8d52-6d203d69f5c1

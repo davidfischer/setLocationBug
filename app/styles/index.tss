@@ -1,0 +1,21 @@
+".container": {
+	backgroundColor:"white"
+}
+"#mapview": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    userLocation: true,
+    enableZoomControls: false,
+    region : {
+        latitude: 32.8345525,
+        longitude: -117.0851632,
+        latitudeDelta:0.05,
+        longitudeDelta:0.05,
+    }
+}
+"#hq": {
+    latitude: 32.841,
+    longitude: -117.092,
+    title: "Somewhere",
+    pincolor: Alloy.Globals.Map.ANNOTATION_RED
+}
