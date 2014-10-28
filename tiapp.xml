@@ -54,12 +54,12 @@
             <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
             <!-- Replace com.domain.appid with your application ID -->
             <uses-permission android:name="name.davidfischer.setlocationtest.permission.MAPS_RECEIVE"/>
-            <permission android:name="name.davidfischer.setlocationtest.permission.MAPS_RECEIVE"
-                android:protectionLevel="signature"/>
+            <permission
+                android:name="name.davidfischer.setlocationtest.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
             <application>
                 <!-- Replace "PASTE YOUR GOOGLE MAPS API KEY HERE" with the Google API key you obtained -->
-                <meta-data android:name="com.google.android.maps.v2.API_KEY"
-                    android:value="AIzaSyAXE7MvSTEhVy_o41r-TYooH-_AbYTZRU0"/>
+                <meta-data
+                    android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAXE7MvSTEhVy_o41r-TYooH-_AbYTZRU0"/>
             </application>
         </manifest>
     </android>
@@ -83,7 +83,7 @@
         <target device="iphone">true</target>
         <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>3.3.0.GA</sdk-version>
+    <sdk-version>3.4.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
